@@ -1,0 +1,35 @@
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 22px;
+  min-width: 80px;
+}
+
+.story-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 3px solid #ff3040;
+  object-fit: cover;
+}
+
+.viewed {
+  border: 3px solid #94a3b8;
+  opacity: 0.8;
+}
+.story-name {
+  font-size: 13px;
+  color: #262626;
+  margin-top: 8px;
+  text-align: center;
+}
+.story-item {
+  cursor: pointer;
+}
+
+.story-image:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

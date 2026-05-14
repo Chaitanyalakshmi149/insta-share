@@ -1,0 +1,23 @@
+
+.actions-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.action-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 14px;
+  padding: 0;
+}
+
+.action-icon {
+  font-size: 24px;
+  color: #262626;
+}
+
+.liked {
+  color: #ed4956;
+}

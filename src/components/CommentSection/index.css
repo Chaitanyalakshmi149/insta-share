@@ -1,0 +1,21 @@
+.comments-container {
+  margin-top: 10px;
+}
+
+.comment-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.comment-user {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 8px;
+  color: #262626;
+}
+
+.comment-text {
+  font-size: 14px;
+  color: #475569;
+}
